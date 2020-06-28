@@ -2,7 +2,7 @@ const WebSocket = require('ws');
 const ws = new WebSocket.Server({
 	port: 8081
 });
-const Socks = require('socks');
+const Socks = require('socks'); //socks@1
 const HttpProxyAgent = require('https-proxy-agent');
 const fs = require('fs');
 let bots = [];
